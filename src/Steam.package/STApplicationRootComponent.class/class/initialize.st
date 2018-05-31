@@ -10,3 +10,5 @@ initialize
 		addLibrary: JQDeploymentLibrary;
 		addLibrary: JQUiDeploymentLibrary;
 		addLibrary: TBSDeploymentLibrary.
+
+	self registerCallbackHandlerAt: 'oauth2callback'.

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Steam-SSO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"oauthSession",
+		"userData",
+		"application"
+	],
+	"name" : "STZnSSOSeasideOAuth2",
+	"type" : "normal"
+}

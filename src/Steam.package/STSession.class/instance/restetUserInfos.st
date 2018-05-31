@@ -1,3 +1,3 @@
 initialization
 restetUserInfos
-	userInfos := Dictionary new.
+	userInfos := nil

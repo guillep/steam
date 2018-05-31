@@ -14,5 +14,5 @@ renderSignInOptionsOn: html
 	url takeServerParametersFromRequest: tmp. 
 
 	self renderOAuth2Providers: url on: html.
-	html horizontalRule.
+
 	

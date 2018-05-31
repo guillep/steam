@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WARequestHandler",
+	"category" : "Steam-SSO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STZnOAuth2CallbackHandler",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "STZnSSOSeasideOAuth2",
+	"category" : "Steam-SSO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STZnSSOSeasideGithubOAuth2",
+	"type" : "normal"
+}

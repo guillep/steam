@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	attributeDictionary := Dictionary new.
-	userInfos := Dictionary new
+	userInfos := nil
