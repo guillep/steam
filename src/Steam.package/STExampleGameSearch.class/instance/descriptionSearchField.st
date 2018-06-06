@@ -2,9 +2,8 @@ acessing-magritte
 descriptionSearchField
 	<magritteDescription>
 	^ MAStringDescription new
-		label: 'Title';
-		accessor: #title;
+		accessor: #searchValue;
 		beSearchField;
-		comment: 'Search for gamezz';
+		comment: 'Search for games';
 		beRequired;
 		yourself

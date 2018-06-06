@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "STObject",
+	"category" : "Steam-Example",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"categoryName"
+	],
+	"name" : "STGameCategory",
+	"type" : "normal"
+}

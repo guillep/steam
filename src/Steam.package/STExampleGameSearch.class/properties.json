@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"title",
-		"results"
+		"results",
+		"searchValue"
 	],
 	"name" : "STExampleGameSearch",
 	"type" : "normal"

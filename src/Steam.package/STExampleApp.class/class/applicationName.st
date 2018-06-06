@@ -1,4 +1,4 @@
 initialization
 applicationName
 	
-	^ 'Example App'
+	^ 'Game manager'

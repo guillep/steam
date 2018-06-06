@@ -1,4 +1,4 @@
 rendering
 call: aComponent
 
-	super call: (STBasePage application: application component: aComponent)
+	super call: (STBasePage appComponent: appComponent component: aComponent)

@@ -1,4 +1,4 @@
 rendering
 selectEntry: entry
 		
-	entry executeOn: application
+	entry executeOn: appComponent

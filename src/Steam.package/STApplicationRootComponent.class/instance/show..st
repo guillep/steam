@@ -1,4 +1,4 @@
 actions
 show: aComponent
 
-	main := STBasePage application: self component: aComponent
+	main := STBasePage appComponent: self component: aComponent

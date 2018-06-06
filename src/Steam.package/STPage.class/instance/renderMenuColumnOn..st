@@ -5,4 +5,4 @@ renderMenuColumnOn: html
 		extraSmallSize: 12;
 		smallSize: 2;
 		mediumSize: 4;
-		with: [ html render: (STMenuComponent application: application) ]
+		with: [ html render: (STMenuComponent appComponent: appComponent) ]

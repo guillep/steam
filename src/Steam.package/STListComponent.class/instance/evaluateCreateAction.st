@@ -2,6 +2,6 @@ actions
 evaluateCreateAction
 
 	| newObject |
-	newObject := self call: (self renderCreateForm: self listAccessor new).
+	newObject := self call: (self renderCreateForm: (self listAccessor onSteamApplication: appComponent)).
 	newObject ifNotNil: [ 
-		application add: newObject ].
+		appComponent save: newObject ].

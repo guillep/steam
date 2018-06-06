@@ -5,4 +5,4 @@ handleCallback
 	oauthSession handleAuthenticationCallback: self requestContext request fields.
 	userData := oauthSession getUserData.
 	self session userInfos: (STSSOUserInfos with: oauthSession infos: userData).
-	self application application login loginUsername: (self session userInfos userName) password: ''
+	appComponent login loginUsername: (self session userInfos userName) password: ''

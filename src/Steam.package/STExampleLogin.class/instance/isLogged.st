@@ -1,4 +1,4 @@
 testing
 isLogged
 
-	^ application isLogged
+	^ appComponent isLogged

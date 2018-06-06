@@ -1,4 +1,4 @@
 rendering
 currentUser
 
-	^ application currentUser
+	^ appComponent currentUser

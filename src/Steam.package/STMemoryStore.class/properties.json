@@ -2,12 +2,14 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "Steam-Stores",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"currentStore"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"store",
-		"application"
+		"appComponent"
 	],
 	"name" : "STMemoryStore",
 	"type" : "normal"

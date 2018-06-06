@@ -2,5 +2,5 @@ accessing
 executeOn: anApplication
 
 	anApplication show: (STSearchComponent
-		application: anApplication
+		appComponent: anApplication
 		model: model)

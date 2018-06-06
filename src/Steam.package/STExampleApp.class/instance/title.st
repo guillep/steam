@@ -1,4 +1,4 @@
 rendering
 title
 
-	^ 'Example title'
+	^ 'Game manager'

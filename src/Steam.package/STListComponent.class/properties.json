@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"listAccessor"
+		"listAccessor",
+		"report"
 	],
 	"name" : "STListComponent",
 	"type" : "normal"

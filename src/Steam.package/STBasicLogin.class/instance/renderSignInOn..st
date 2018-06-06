@@ -6,10 +6,10 @@ renderSignInOn: html
 				tbsPullRight;
 				with: [ html tbsDropdownButton
 						beDefault;
-						with: [ application session userInfos isNotNil
+						with: [ appComponent session userInfos isNotNil
 								ifTrue: [ html image
 										width: 30;
-										url: application session userInfos userPicture ]
+										url: appComponent session userInfos userPicture ]
 								ifFalse: [ html tbsGlyphIcon iconUser ].
 							html space.
 							html text: self currentUserName.
@@ -18,7 +18,7 @@ renderSignInOn: html
 					html tbsDropdownMenu
 						with: [ html
 								tbsDropdownMenuItem: [ html anchor
-										callback: [ application gotoUserPage ];
+										callback: [ appComponent gotoUserPage ];
 										with: 'Settings' ].
 							html
 								tbsDropdownMenuItem: [ html anchor

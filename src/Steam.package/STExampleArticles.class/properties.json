@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "STObject",
+	"category" : "Steam-Example",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"date",
+		"category",
+		"content"
+	],
+	"name" : "STExampleArticles",
+	"type" : "normal"
+}

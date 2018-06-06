@@ -2,5 +2,5 @@ executing
 executeOn: anApplication
 
 	anApplication show: (STListComponent
-		application: anApplication
+		appComponent: anApplication
 		listAccessor: listAccessor)

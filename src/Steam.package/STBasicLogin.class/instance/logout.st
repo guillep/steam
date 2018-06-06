@@ -1,4 +1,4 @@
 authentication
 logout
 
-	application logout.
+	appComponent logout.

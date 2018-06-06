@@ -1,4 +1,4 @@
 accessing
 elements
 
-	^ application queryAll: listAccessor
+	^ appComponent queryAll: listAccessor
