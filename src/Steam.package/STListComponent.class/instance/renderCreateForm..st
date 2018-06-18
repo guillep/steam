@@ -6,4 +6,5 @@ renderCreateForm: anObject
 			buttons: { 
 				#save -> self listAccessor createAction acceptTitle.
 				#cancel -> self listAccessor createAction cancelTitle });
+		addDecoration: TBSMagritteValidationDecoration new;
 		yourself

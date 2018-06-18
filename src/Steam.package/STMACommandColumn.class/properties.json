@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MACommandColumn",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STMACommandColumn",
+	"type" : "normal"
+}

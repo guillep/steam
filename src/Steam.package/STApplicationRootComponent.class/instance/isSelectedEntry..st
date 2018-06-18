@@ -1,4 +1,3 @@
 accessing
 isSelectedEntry: anEntry
-
-	^ main listAccessor = anEntry
+	^ selectedEntry ifNil: [ false ] ifNotNil: [ selectedEntry = anEntry ]

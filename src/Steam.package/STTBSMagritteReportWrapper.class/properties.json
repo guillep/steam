@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"report",
+		"selection",
+		"appComponent"
+	],
+	"name" : "STTBSMagritteReportWrapper",
+	"type" : "normal"
+}

@@ -1,5 +1,5 @@
 descriptions
-descriptionCategoryTitle
+descriptionCategoryName
 	<magritteDescription>
 	^ MAStringDescription new
 		label: 'Category';

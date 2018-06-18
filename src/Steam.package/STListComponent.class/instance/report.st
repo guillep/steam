@@ -1,21 +1,31 @@
 rendering
 report
+	| description checkbox |
 	report ifNotNil: [ ^ report ].
-	
-	report := TBSMagritteReport
-		rows: self elements
-		description: ((self listAccessor instanceMagritteDescriptionOnApplication: appComponent) select: #visibleInReport).
+	report := TBSMagritteReport rows: self elements.
 	report showStriped: true.
 	report showBordered: false.
 	report tableEmpty: 'No ' , self listAccessor title.
 	report showBatchFirstLast: true.
+	report batchSize: 5.
+
+	self isLoggedIn
+		ifTrue: [ report addColumn: (checkbox := STMACheckboxColumn new accessor: #isSelected) ].
+
+	description := (self listAccessor instanceMagritteDescriptionOnApplication: appComponent) select: #visibleInReport.
+	description asContainer do: [ :each | report addColumnDescription: each ].
+
 	self isLoggedIn
 		ifTrue: [ report
 				addColumn:
-					(MACommandColumn new
-						addCommandOn: self selector: #view: text: 'View';
-						addCommandOn: self selector: #edit: text: 'Edit';
-						addCommandOn: self selector: #delete: text: 'Delete';
+					(STMACommandColumn new
+						addCommandOn: self selector: #view: text: #iconExpand;
+						addCommandOn: self selector: #edit: text: #iconPencil;
+						addCommandOn: self selector: #delete: text: #iconTrash;
 						yourself).
-			report addColumn: (MACheckboxColumn new accessor: #isSelected) ].
+			checkbox label:( wrapper
+				appComponent: appComponent;
+				selection: report columns first selection;
+				report: report;
+				yourself )].
 	^ report

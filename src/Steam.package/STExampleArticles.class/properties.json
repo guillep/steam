@@ -9,7 +9,8 @@
 		"title",
 		"date",
 		"category",
-		"content"
+		"content",
+		"email"
 	],
 	"name" : "STExampleArticles",
 	"type" : "normal"

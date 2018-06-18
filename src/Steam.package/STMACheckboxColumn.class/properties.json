@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MACheckboxColumn",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STMACheckboxColumn",
+	"type" : "normal"
+}

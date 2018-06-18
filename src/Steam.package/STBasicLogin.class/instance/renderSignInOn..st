@@ -7,7 +7,8 @@ renderSignInOn: html
 				with: [ html tbsDropdownButton
 						beDefault;
 						with: [ appComponent session userInfos isNotNil
-								ifTrue: [ html image
+								ifTrue: [ html tbsImage
+										beRounded;
 										width: 30;
 										url: appComponent session userInfos userPicture ]
 								ifFalse: [ html tbsGlyphIcon iconUser ].

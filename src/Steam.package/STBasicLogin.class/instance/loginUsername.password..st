@@ -1,4 +1,5 @@
 authentication
 loginUsername: username password: password
 
-	application loggedInUser: (STUser named: username)
+	appComponent loggedInUser: (STUser named: username).
+	appComponent refresh
