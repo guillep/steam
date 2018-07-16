@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "STStore",
 	"category" : "Steam-Stores",
 	"classinstvars" : [
 		"currentStore"
@@ -8,8 +8,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"store",
-		"appComponent"
+		"store"
 	],
 	"name" : "STMemoryStore",
 	"type" : "normal"

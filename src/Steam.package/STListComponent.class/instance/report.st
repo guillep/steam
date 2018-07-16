@@ -7,7 +7,8 @@ report
 	report showBordered: false.
 	report tableEmpty: 'No ' , self listAccessor title.
 	report showBatchFirstLast: true.
-	report batchSize: 5.
+	report showHover: true.
+"	report batchSize: 5."
 
 	self isLoggedIn
 		ifTrue: [ report addColumn: (checkbox := STMACheckboxColumn new accessor: #isSelected) ].
@@ -19,7 +20,7 @@ report
 		ifTrue: [ report
 				addColumn:
 					(STMACommandColumn new
-						addCommandOn: self selector: #view: text: #iconExpand;
+						addCommandOn: self selector: #view: text: #iconInfo "iconExpand ?";
 						addCommandOn: self selector: #edit: text: #iconPencil;
 						addCommandOn: self selector: #delete: text: #iconTrash;
 						yourself).

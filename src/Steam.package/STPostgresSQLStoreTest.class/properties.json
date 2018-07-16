@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Steam-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"store",
+		"gameCat",
+		"game",
+		"app",
+		"ds",
+		"session",
+		"article"
+	],
+	"name" : "STPostgresSQLStoreTest",
+	"type" : "normal"
+}

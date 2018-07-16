@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"id",
 		"title",
 		"category",
-		"isSelected",
 		"rating"
 	],
 	"name" : "STExampleGame",

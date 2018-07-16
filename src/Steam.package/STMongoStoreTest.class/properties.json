@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Steam-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"store",
+		"gameCat",
+		"game"
+	],
+	"name" : "STMongoStoreTest",
+	"type" : "normal"
+}

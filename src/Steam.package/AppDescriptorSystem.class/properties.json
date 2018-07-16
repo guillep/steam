@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "DescriptorSystem",
+	"category" : "Steam-Stores",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AppDescriptorSystem",
+	"type" : "normal"
+}

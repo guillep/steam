@@ -6,11 +6,11 @@ renderOAuth2Providers: aCallbackUrl on: html
 		with: [ 
 			html tbsImage 
 				width: 180;
-				url: 'https://coderwall-assets-0.s3.amazonaws.com/uploads/picture/file/4314/download.png' ].
+				url: 'http://www.kthotelsgate.com/assets/theme_dark/images/sign-in-button.png' ].
 
 	html anchor
 		callback: [ self signOnUsingOAuth2Github: aCallbackUrl ] ;
 		with: [ 
 			html tbsImage 
 				width: 180;
-				url: 'https://coderwall-assets-0.s3.amazonaws.com/uploads/picture/file/4363/github.png' ].
+				url: 'https://mattstauffer.com/assets/images/content/Screen-Shot-2015-07-16-at-1.45.52-PM.png' ].

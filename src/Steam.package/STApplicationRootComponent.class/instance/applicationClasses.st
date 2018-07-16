@@ -1,0 +1,4 @@
+initialization
+applicationClasses
+
+	self subclassResponsibility

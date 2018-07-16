@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "STStore",
+	"category" : "Steam-Stores",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"descriptorSystem",
+		"session"
+	],
+	"name" : "STPostgresSQLStore",
+	"type" : "normal"
+}

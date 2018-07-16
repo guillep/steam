@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "STStore",
+	"category" : "Steam-Stores",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STMongoStore",
+	"type" : "normal"
+}

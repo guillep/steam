@@ -1,0 +1,4 @@
+initialization
+applicationClasses
+
+	^ { STExampleArticle. STGameCategory }

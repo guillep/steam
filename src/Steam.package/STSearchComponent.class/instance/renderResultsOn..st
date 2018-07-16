@@ -8,7 +8,7 @@ renderResultsOn: html
 	html heading
 		level: 2;
 		with: 'Results'.
-	
+
 	searchResultFields do: [ :each | | resultObject component |
 		resultObject := self model readUsing: each.
 		component := resultObject isCollection
