@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "STCommand",
+	"category" : "Steam-Example",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STRentArticleCommand",
+	"type" : "normal"
+}

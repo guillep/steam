@@ -1,0 +1,1 @@
+I represent the application store where objects are saved with the Voyage framework in Mongo which is a document-oriented database.

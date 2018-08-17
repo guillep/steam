@@ -1,17 +1,13 @@
 tests
 testGameModification
 	| extractedCollection |
-	article title: 'title1'.
-	store save: article.
-	extractedCollection := store query: article class with: 'title1'.
-	self assert: extractedCollection size equals: 1.
-	self assert: extractedCollection first title equals: 'title1'.
-	
-	extractedCollection first title: 'title2'.
-	extractedCollection := nil.
-	
-	extractedCollection := store query: article class with: 'title1'.
-	self assert: extractedCollection size equals: 1.
-	self assert: extractedCollection first title equals: 'title2'.
-	
-	store delete: extractedCollection first
+	game rating: 10.
+	store save: game.
+	extractedCollection := store query: game class with: game title.
+	self assert: extractedCollection first rating equals: 10.
+	game rating: 5.
+	store update: game.
+	extractedCollection := store query: game class with: game title.
+	self assert: extractedCollection first rating equals: 5.
+	store delete: extractedCollection first	;
+		delete: gameCat

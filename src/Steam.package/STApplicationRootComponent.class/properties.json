@@ -1,8 +1,10 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "tsap 8/1/2018 16:53",
 	"super" : "WAComponent",
 	"category" : "Steam",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"seasideServer"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

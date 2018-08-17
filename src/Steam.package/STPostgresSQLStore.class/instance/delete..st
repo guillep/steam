@@ -1,7 +1,5 @@
 storing
 delete: anObject
 
-	session login.
-	session inUnitOfWorkDo: [ 
-		session delete: anObject ].
-	session logout
+	self currentSession inUnitOfWorkDo: [ 
+		self currentSession delete: anObject ].

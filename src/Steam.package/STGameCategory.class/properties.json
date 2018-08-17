@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"id",
 		"title"
 	],
 	"name" : "STGameCategory",

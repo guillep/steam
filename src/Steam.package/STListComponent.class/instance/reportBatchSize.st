@@ -1,0 +1,3 @@
+configuration
+reportBatchSize
+	^ 10

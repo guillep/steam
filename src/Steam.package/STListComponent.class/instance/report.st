@@ -1,4 +1,4 @@
-rendering
+accessing
 report
 	| description checkbox |
 	report ifNotNil: [ ^ report ].
@@ -8,7 +8,7 @@ report
 	report tableEmpty: 'No ' , self listAccessor title.
 	report showBatchFirstLast: true.
 	report showHover: true.
-"	report batchSize: 5."
+	report batchSize: self reportBatchSize.
 
 	self isLoggedIn
 		ifTrue: [ report addColumn: (checkbox := STMACheckboxColumn new accessor: #isSelected) ].
@@ -17,16 +17,15 @@ report
 	description asContainer do: [ :each | report addColumnDescription: each ].
 
 	self isLoggedIn
-		ifTrue: [ report
-				addColumn:
-					(STMACommandColumn new
-						addCommandOn: self selector: #view: text: #iconInfo "iconExpand ?";
-						addCommandOn: self selector: #edit: text: #iconPencil;
-						addCommandOn: self selector: #delete: text: #iconTrash;
-						yourself).
-			checkbox label:( wrapper
-				appComponent: appComponent;
-				selection: report columns first selection;
-				report: report;
-				yourself )].
+		ifTrue: [ | commandsColumn |			
+			commandsColumn := STMACommandColumn new.
+			self listAccessor commands do: [ :each | each renderOn: self column: commandsColumn ].
+			report addColumn: commandsColumn.
+
+			checkbox label: 
+				(wrapper
+					appComponent: appComponent;
+					selection: report columns first selection;
+					report: report;
+					yourself) ].
 	^ report

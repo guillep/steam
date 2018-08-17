@@ -4,5 +4,9 @@ renderCellLinkContent: anObject on: html
 		do: [ :each |
 			html anchor
 				callback: [ each key value: anObject ];
-				with: [ html tbsGlyphIcon style: 'margin: 2px'; perform: each value ] ]
+				with: [ 
+					html tbsGlyphIcon 
+						title: each key receiver outerContext receiver selector; 
+						style: 'margin: 2px'; 
+						perform: each value ] ]
 		separatedBy: [ html space ]

@@ -1,0 +1,1 @@
+I represent the application store where objects are saved with the Garage framework in a PostgreSQL database.

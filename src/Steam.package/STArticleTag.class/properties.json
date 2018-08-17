@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "STObject",
+	"category" : "Steam-Example",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title"
+	],
+	"name" : "STArticleTag",
+	"type" : "normal"
+}

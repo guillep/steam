@@ -1,14 +1,16 @@
 initialization
 setUp
+
 	| app |
+	super setUp.
 	app := STMemoryStore createAppWithClass: STExampleApp.
 	store := app store.
+	store initialize.
+	
 	gameCat := (STGameCategory onSteamApplication: app)
 		title: 'Test Category';
 		yourself.
 	game := (STExampleGame onSteamApplication: app)
 		category: gameCat;
 		title: 'Test Game';
-		rating: 10.
-	self assert: (store query: game class with: game title) size equals: 0.
-	self assert: (store query: gameCat class with: gameCat title) size equals: 0
+		rating: 10

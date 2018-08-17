@@ -2,8 +2,6 @@ querying
 queryAll: aClass
 
 	| res |
-	session login.
-	res := session read: aClass.
+	res := self currentSession read: aClass.
 	res do: [ :each | each steamApplication: appComponent ].
-	session logout.
 	^ res

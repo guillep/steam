@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"steamApplication"
+		"steamApplication",
+		"id"
 	],
 	"name" : "STObject",
 	"type" : "normal"

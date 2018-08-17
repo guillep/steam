@@ -1,0 +1,4 @@
+querying
+currentSession
+
+	^ session

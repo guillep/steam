@@ -1,4 +1,0 @@
-testing
-isLogged
-	
-	^ true

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "STCommand",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STEdit",
+	"type" : "normal"
+}

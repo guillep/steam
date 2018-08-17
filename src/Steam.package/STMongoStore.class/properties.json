@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "tsap 8/1/2018 15:47",
 	"super" : "STStore",
 	"category" : "Steam-Stores",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"repository"
+	],
 	"name" : "STMongoStore",
 	"type" : "normal"
 }

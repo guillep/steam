@@ -1,0 +1,4 @@
+actions
+rent
+
+	self subclassResponsibility

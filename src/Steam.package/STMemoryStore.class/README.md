@@ -1,0 +1,1 @@
+I represent the application store where objects are saved in pharo environment.

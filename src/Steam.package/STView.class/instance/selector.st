@@ -1,0 +1,4 @@
+query
+selector
+
+	^ #view

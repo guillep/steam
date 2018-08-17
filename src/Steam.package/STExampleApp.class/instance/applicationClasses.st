@@ -1,4 +1,4 @@
 initialization
 applicationClasses
 
-	^ { STExampleArticle. STGameCategory }
+	^ {STArticleTag. STExampleArticle. STGameCategory. STExampleGame }

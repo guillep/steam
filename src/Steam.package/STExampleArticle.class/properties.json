@@ -1,15 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "STObject",
+	"super" : "STAbstractArticle",
 	"category" : "Steam-Example",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"id",
 		"title",
 		"date",
-		"category",
+		"tags",
 		"content",
 		"email"
 	],
