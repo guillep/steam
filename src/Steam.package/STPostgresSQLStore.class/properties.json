@@ -7,7 +7,12 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"descriptorSystem",
-		"session"
+		"session",
+		"username",
+		"password",
+		"host",
+		"port",
+		"database"
 	],
 	"name" : "STPostgresSQLStore",
 	"type" : "normal"

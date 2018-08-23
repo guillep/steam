@@ -1,6 +1,7 @@
 instance creation
-on: anApp
+on: anApplication
+
 	^ self basicNew
-		appComponent: anApp;
+		appComponent: anApplication;
 		initialize;
 		yourself

@@ -2,8 +2,9 @@ initialization
 setUp
 	| app |
 	super setUp.
-	app := STMongoStore createAppWithClass: STExampleApp.
-	store := app store.
+	app := STExampleApp new.
+	store := STMongoStore on: app host: 'localhost' database: 'steam'.
+	app store: store.
 	store repository: (VOMongoRepository
 		host: 'localhost'
 		database: 'steam_test').

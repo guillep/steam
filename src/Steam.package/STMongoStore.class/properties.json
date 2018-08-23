@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"repository"
+		"repository",
+		"host",
+		"database"
 	],
 	"name" : "STMongoStore",
 	"type" : "normal"

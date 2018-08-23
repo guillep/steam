@@ -1,4 +1,4 @@
-logging-in
+authentication
 loginUsername: username password: password
-1halt.
+
 	self subclassResponsibility

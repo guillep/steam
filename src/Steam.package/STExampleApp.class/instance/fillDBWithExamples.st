@@ -62,7 +62,7 @@ fillDBWithExamples
 		title: 'Portal';
 		rating: 9.
 
-	(STExampleArticle onSteamApplication: self)
+"	(STExampleArticle onSteamApplication: self)
 		date: '22 may 2018' asDate;
 		title: 'Digital Trends Top Games of E3 2018';
 		content: 'Every year, video game publishers gather to showcase the biggest, best, and brightest games that we’ll play in the coming year and beyond. In 2018, Digital Trends saw a ton of hot new titles we’re excited to enjoy, and that we hope will change the way we see, think, and play games forever.
@@ -77,6 +77,6 @@ From a game that helps everyone make the transition from gamer to world builder,
 On Friday, the Home Office is expected to confirm that foreign doctors and nurses will be excluded from the government''s visa cap.
 The cap - introduced by Theresa May when she was home secretary - sets a limit for all non-EU skilled workers at 20,700 people a year.
 There have been warnings it makes it hard to fill vacancies in the NHS.
-Labour said the expected announcement was a "welcome U-turn", and NHS bosses said it would be a "huge relief" to health trusts.';
+Labour said the expected announcement was a ""welcome U-turn"", and NHS bosses said it would be a ""huge relief"" to health trusts.';
 		category: 'Politics';
-		email: 'yourpics@bbc.co.uk'.} do: [ :e | self save: e ]
+		email: 'yourpics@bbc.co.uk'."} do: [ :e | self save: e ]

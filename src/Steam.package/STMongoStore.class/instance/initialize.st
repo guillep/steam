@@ -2,6 +2,6 @@ initialization
 initialize
 
 	repository := VOMongoRepository
-		host: 'localhost'
-		database: 'steam'.
+		host: host
+		database: database.
 	repository enableSingleton

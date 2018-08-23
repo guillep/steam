@@ -3,9 +3,9 @@ setUp
 
 	| app |
 	super setUp.
-	app := STMemoryStore createAppWithClass: STExampleApp.
-	store := app store.
-	store initialize.
+	app := STExampleApp new.
+	store := STMemoryStore on: app.
+	app store: store.
 	
 	gameCat := (STGameCategory onSteamApplication: app)
 		title: 'Test Category';

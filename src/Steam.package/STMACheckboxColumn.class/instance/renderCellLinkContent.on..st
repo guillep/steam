@@ -3,7 +3,7 @@ renderCellLinkContent: anObject on: html
 	| selected |
 	selected := self isSelected: anObject.
 	html div
-		class: 'chckbox';
+		class: 'checkbox';
 		style: 'text-align: center';
 		with: [ 
 			html anchor 

@@ -1,0 +1,4 @@
+initialization
+createNewStore
+
+	^ self subclassResponsibility

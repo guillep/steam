@@ -1,0 +1,4 @@
+rendering
+oauthRequestClass
+			
+	^ self subclassResponsibility

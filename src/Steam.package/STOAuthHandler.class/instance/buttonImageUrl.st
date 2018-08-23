@@ -1,0 +1,4 @@
+rendering
+buttonImageUrl
+
+	^ self subclassResponsibility

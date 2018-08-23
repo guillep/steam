@@ -1,0 +1,4 @@
+rendering
+oauthRequestClass
+
+	^ STZnSSOSeasideGoogleOAuth2
